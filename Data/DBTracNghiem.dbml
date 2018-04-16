@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DBHTTN" Class="DBTracNghiemDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DMTUAN;Initial Catalog=DBHTTN;Integrated Security=True" SettingsObjectName="Data.Properties.Settings" SettingsPropertyName="DBHTTNConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.COMPETION" Member="COMPETIONs">
+    <Type Name="COMPETION">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="subtractID" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="testDateBegin" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="testTimeToLive" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="gradeid" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="idtest" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DEMO_COMPETION" Member="DEMO_COMPETIONs">
+    <Type Name="DEMO_COMPETION">
+      <Column Name="demoCompID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="subtractID" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="expDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="gradeid" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="iddemotest" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DEMO_RESULT_TEMP" Member="DEMO_RESULT_TEMPs">
+    <Type Name="DEMO_RESULT_TEMP">
+      <Column Name="stt" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="idQuiz" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="answer" Type="System.Char" DbType="NChar(1)" CanBeNull="true" />
+      <Column Name="truefalse" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DEMO_TEST" Member="DEMO_TESTs">
+    <Type Name="DEMO_TEST">
+      <Column Name="demoTestID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="subtractID" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DEMO_TEST_DETAIL" Member="DEMO_TEST_DETAILs">
+    <Type Name="DEMO_TEST_DETAIL">
+      <Column Name="demoIdTest" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="subtractID" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="stt" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="quizID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.GRADE" Member="GRADEs">
+    <Type Name="GRADE">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="gradeName" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.GUEST" Member="GUESTs">
+    <Type Name="GUEST">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="guestid" Type="System.String" DbType="NChar(30)" CanBeNull="true" />
+      <Column Name="guestpassword" Type="System.String" DbType="NChar(1000)" CanBeNull="true" />
+      <Column Name="guestName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LEVELQUIZ" Member="LEVELQUIZs">
+    <Type Name="LEVELQUIZ">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="levelQuizz" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QUIZ" Member="QUIZs">
+    <Type Name="QUIZ">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="idSubtract" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="quizz" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="a" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="b" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="c" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="d" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="answer" Type="System.Char" DbType="NChar(1)" CanBeNull="true" />
+      <Column Name="rateHard" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.RESULT" Member="RESULTs">
+    <Type Name="RESULT">
+      <Column Name="idCom" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="idSubtract" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="idStudent" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="score" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.RESULT_TEMP" Member="RESULT_TEMPs">
+    <Type Name="RESULT_TEMP">
+      <Column Name="idCompe" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="idStudent" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="idSubtract" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="idQuiz" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="answer" Type="System.Char" DbType="NChar(1)" CanBeNull="true" />
+      <Column Name="truefalse" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.STUDENT" Member="STUDENTs">
+    <Type Name="STUDENT">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="studentID" Type="System.String" DbType="NChar(25)" CanBeNull="true" />
+      <Column Name="studentPassword" Type="System.String" DbType="NChar(1000)" CanBeNull="true" />
+      <Column Name="studentFullname" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="studentBirthday" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="studentEmail" Type="System.String" DbType="NChar(30)" CanBeNull="true" />
+      <Column Name="studentClass" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SUBTRACT" Member="SUBTRACTs">
+    <Type Name="SUBTRACT">
+      <Column Name="id" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="gradeID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TEACHER" Member="TEACHERs">
+    <Type Name="TEACHER">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="teacherID" Type="System.String" DbType="NChar(30)" CanBeNull="true" />
+      <Column Name="teacherPassword" Type="System.String" DbType="NChar(1000)" CanBeNull="true" />
+      <Column Name="teacherFullname" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="teacherEmail" Type="System.String" DbType="NChar(25)" CanBeNull="true" />
+      <Column Name="teacherBirthday" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="teacherSchema" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TEST_DETAIL" Member="TEST_DETAILs">
+    <Type Name="TEST_DETAIL">
+      <Column Name="testID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="subtractID" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="stt" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="quizID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TEST" Member="TESTs">
+    <Type Name="TEST">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="subtractID" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TYPE" Member="TYPEs">
+    <Type Name="TYPE">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

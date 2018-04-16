@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 15" name="DBTracNghiem">
+  <DataContextMoniker Name="/DBTracNghiemDataContext" />
+  <nestedChildShapes>
+    <classShape Id="8bf31c02-7c0f-4778-8924-5b314f949638" absoluteBounds="1.375, 7.125, 2, 1.9631982421875">
+      <DataClassMoniker Name="/DBTracNghiemDataContext/COMPETION" />
+      <nestedChildShapes>
+        <elementListCompartment Id="30e1e4d0-831a-4a98-a3ad-4ee287bfdc75" absoluteBounds="1.3900000000000001, 7.585, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="94b62d37-8c6d-452c-b4d6-6033b49d96a5" absoluteBounds="4.125, 8.125, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/DBTracNghiemDataContext/DEMO_COMPETION" />
+      <nestedChildShapes>
+        <elementListCompartment Id="59b87909-a65c-49c2-beba-aadf25cc4576" absoluteBounds="4.14, 8.585, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4f9434ea-75d3-4c6a-b863-5df8650813e2" absoluteBounds="3.5, 10.625, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DBTracNghiemDataContext/DEMO_RESULT_TEMP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b1858d97-e337-43e0-808d-636bdb6387c9" absoluteBounds="3.515, 11.085, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="49c4e21b-8155-4bdb-8f1d-a4e92b6e714a" absoluteBounds="4.5, 6.625, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/DBTracNghiemDataContext/DEMO_TEST" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bc13fc3f-4a4f-4774-9eea-7b06854d557b" absoluteBounds="4.515, 7.085, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e9c8f753-1218-4d4d-b808-4b36ceb26297" absoluteBounds="7.875, 10.375, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DBTracNghiemDataContext/DEMO_TEST_DETAIL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1246b080-b0af-48c3-83b8-06ac493c38b5" absoluteBounds="7.89, 10.835, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e065ce21-e068-43ad-8908-dffcebeb5e88" absoluteBounds="5.75, 9.125, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/DBTracNghiemDataContext/GRADE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7143ad71-7ada-4773-a5ea-1a67ec07d974" absoluteBounds="5.765, 9.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="25e74a15-eacf-410d-81fc-a2351dc31421" absoluteBounds="6.375, 5.25, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DBTracNghiemDataContext/GUEST" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6d41dff8-54fb-45b8-bf13-475c6e520df6" absoluteBounds="6.3900000000000006, 5.7100000000000009, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="abe6ed24-623a-49d0-a722-96203f9a1fcd" absoluteBounds="3.5, 12.5, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/DBTracNghiemDataContext/LEVELQUIZ" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5f3976bf-9ec0-446c-b8cd-d92dd7d462d8" absoluteBounds="3.5149999999999997, 12.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8a5477c3-4e44-495e-845c-c2dfc6ff68ce" absoluteBounds="0.5, 9.875, 2, 2.5401025390625">
+      <DataClassMoniker Name="/DBTracNghiemDataContext/QUIZ" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d4063881-7630-4c27-8f11-1807ca14e84c" absoluteBounds="0.51500000000000012, 10.335, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d59589a9-f250-497d-a602-36dbd707da60" isExpanded="false" absoluteBounds="0.5, 11.375, 2, 0.45">
+      <DataClassMoniker Name="/DBTracNghiemDataContext/RESULT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8e65f142-05c2-4b56-a819-4f151e6b7d73" absoluteBounds="0.51500000000000012, 11.835, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2c709e60-33c0-4606-b256-5f64a051d494" absoluteBounds="1, 12.625, 2, 1.9631982421875">
+      <DataClassMoniker Name="/DBTracNghiemDataContext/RESULT_TEMP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="27ed742c-56d0-44bc-b08f-305912cfc659" absoluteBounds="1.0150000000000001, 13.085, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="07ce0eda-3c5e-4c77-95f2-bd29aab24a85" absoluteBounds="7.375, 12.625, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/DBTracNghiemDataContext/STUDENT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="089fbf81-806b-40b5-a2cd-f9c9d530840a" absoluteBounds="7.39, 13.085, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="34dcc132-b5a4-4a92-8d9d-b1fe829e7ee3" absoluteBounds="1.75, 5.5, 2, 1.3862939453125">
+      <DataClassMoniker Name="/DBTracNghiemDataContext/SUBTRACT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d3d0af51-cdc5-4c62-9397-ca9bab5d0f43" absoluteBounds="1.7649999999999997, 5.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="dc4e0b25-a247-44ab-a2f2-7a9a8265ed73" absoluteBounds="7.25, 7.5, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/DBTracNghiemDataContext/TEACHER" />
+      <nestedChildShapes>
+        <elementListCompartment Id="08f3d354-c32f-4921-8e7f-3a43fb6ece95" absoluteBounds="7.2650000000000006, 7.96, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="084daf8a-8285-476f-8256-bacccc72e6cd" absoluteBounds="8.5, 9.25, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DBTracNghiemDataContext/TEST_DETAIL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="73992235-abe2-48c4-9c21-a0251970e5f2" absoluteBounds="8.515, 9.71, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a97a6196-9c53-43d9-b3b3-25a7d34a1196" absoluteBounds="4.375, 11.125, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/DBTracNghiemDataContext/TEST" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5ce4abb7-fd1d-4cc3-96f7-2a40f8f7fd7a" absoluteBounds="4.39, 11.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5f893062-4f49-4fb0-9cb5-887044fd801d" absoluteBounds="4.25, 5, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/DBTracNghiemDataContext/TYPE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="676b4163-4e37-40e4-9cbd-dd4c323bbd12" absoluteBounds="4.265, 5.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
